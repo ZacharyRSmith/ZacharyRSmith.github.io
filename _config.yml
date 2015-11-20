@@ -43,24 +43,24 @@ keywords: "smith, personal, jekyll, theme"
 # Intro layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
-background-img: "../img/intro-bg.jpg"
-me-img: "/img/jetpacktocat.png"
+# black-favicon: "/img/black-lab-glass.ico"
+background-img: "../img/landscape.jpg"
+me-img: "/img/googleImg.png"
 
 ##############################
 # Dynamic Text on the header #
 ##############################
 
-# dynamic-typing: True
-# shuffle: True	# Shuffle the lines.
-# loop: True
-# loop-count:	False # Set False for infinite loop, or set any number for finite loop.
-# type-speed:	10		# Default 10
-# start-delay: 200	# Default 200
-# delete-delay: 5000	# Default 5000
-# lines:			# You can add HTML Tags in the Text
-#   - text: "The lower you fall, the higher you'll fly."
-#   - text: "Where’s your will to be weird?"
+dynamic-typing: False
+shuffle: True	# Shuffle the lines.
+loop: True
+loop-count:	False # Set False for infinite loop, or set any number for finite loop.
+type-speed:	10		# Default 10
+start-delay: 200	# Default 200
+delete-delay: 5000	# Default 5000
+lines:			# You can add HTML Tags in the Text
+  - text: "The lower you fall, the higher you'll fly."
+  - text: "Where’s your will to be weird?"
 
 ########
 # Blog #
