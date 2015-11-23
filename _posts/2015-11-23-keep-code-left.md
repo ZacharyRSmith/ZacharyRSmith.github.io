@@ -19,7 +19,7 @@ codebase increases.
 
 This is an example of
 
-```
+```javascript
 addToRooms: function(messages){
   $('#roomSelect').html('<option value="newRoom">New Room...</option><option value="lobby" selected>Lobby</option>');
 
