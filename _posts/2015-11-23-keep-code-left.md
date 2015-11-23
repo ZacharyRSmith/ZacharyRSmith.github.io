@@ -19,7 +19,7 @@ codebase increases.
 
 This is an example of
 
-<pre style="text-align: left">
+```
 addToRooms: function(messages){
   $('#roomSelect').html('<option value="newRoom">New Room...</option><option value="lobby" selected>Lobby</option>');
 
@@ -37,7 +37,7 @@ addToRooms: function(messages){
  
   $('#roomSelelect').val(app.room);
 }
-</pre>
+```
 
 Run the ./scripts/newpost script with the file name of the post as an argument:
 
